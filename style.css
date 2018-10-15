@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+body {
+  background-color: #ddd;
+  margin: auto;
+  font-family: 'Open sans', sans-seriv;
+}
+
+                /* Header */
+
+.j-nav-logo { /* Navbar Logo */
+  font-family: 'Black Ops One', serif;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -76px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+                /* Userforms */
+
+.userformdiv {
+  text-align: center;
+}
+
+.userform input[type=text], .userform input[type=password] {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 8px;
+  width:200px;
+
+  background-color: inherit;
+  border-style: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #ddd inset;
+}
+
+.userform button {
+  font-family: 'Open sans', sans-seriv;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom:8px;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:-webkit-linear-gradient(top, #30c0f0 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #30c0f0 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #30c0f0 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #30c0f0 5%, #019ad2 100%);
+  background-color:#30c0f0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 80px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.userform button:hover {
+	background:-webkit-linear-gradient(top, #019ad2 5%, #30c0f0 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #30c0f0 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #30c0f0 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #30c0f0 100%);
+	background-color:#019ad2;
+}
+
+.userform button:focus, .userform input:focus {
+  outline:none;
+}
+
+.userform a {
+  text-decoration: none;
+  margin-top: 8px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color:black;
+}
