@@ -4,7 +4,11 @@ Personal algorithm database and/or cuber profile, not sure yet.
 -----
 TODO:
 
+- Add alg sections obviously.
+-----
+DONE:
 
+- More dynamic with p=page thing.
 -----
 
 16/10/2018
