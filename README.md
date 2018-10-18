@@ -4,22 +4,33 @@ Personal algorithm database and/or cuber profile, not sure yet.
 -----
 TODO:
 
-- Add alg sections obviously.
+- Alg sections.
   - 3x3
-    - OLL
-    - PLL
-    - COLL
-    - OLLCP
-    - ZBLL
-    - 1LLL
+    - OLL []
+    - PLL []
+    - COLL []
+    - OLLCP []
+    - ZBLL []
+    - 1LLL []
   - 2x2
-    - OLL
-    - PBL
-    - CLL
-    - EG1
-    - EG2
+    - CLL []
+    - EG1 []
+    - EG2 []
   - 4x4
-    - Parity (OLL/PLL)
+    - Parity (OLL/PLL) []
+
+- Profile Improvements
+  - Scramble showcase []
+  - Video []
+  - If active []
+  - Age [x]
+  - Nationality [x]
+  - Links to other sites/social media []
+    - WCA
+    - Facebook
+    - Youtube
+    - Speedsolving
+ 
 -----
 DONE:
 
