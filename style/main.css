@@ -3,7 +3,6 @@
 
 body {
   background-color: #ddd;
-  margin: auto;
   font-family: 'Open sans', sans-seriv;
 }
 
@@ -11,18 +10,15 @@ body {
 
 .j-nav-logo { /* Navbar Logo */
   font-family: 'Black Ops One', serif;
-  font-size: 40px;
-  position: absolute;
-  left: 50%;
-  margin-left: -76px !important;  /* 50% of your logo width */
-  display: block;
+  font-size: 25px;
 }
 
+.nav-pills > li > a.active {
+    background-color: #ff0000 !important;
+}
                 /* Userforms */
 
-.userformdiv {
-  text-align: center;
-}
+.userformdiv { text-align: center; }
 
 .userform input[type=text], .userform input[type=password] {
   padding-top:10px;
@@ -31,7 +27,6 @@ body {
   padding-right: 20px;
   margin-top: 8px;
   width:200px;
-
   background-color: inherit;
   border-style: none;
   border-bottom: 1px solid black;
